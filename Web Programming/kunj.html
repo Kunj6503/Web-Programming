@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="This is a profolio website.">
+    <meta name="keywords" content-="protfolio, kunj">
+    <title>My protfolio</title>
+
+    <!-- linking the css file -->
+    <link rel="stylesheet" href="kunj.css">
+
+    <!-- linking the javascript file -->
+    <script src="kunj.js"></script>
+
+</head>
+
+<body>
+    <h1>Kunj Kalpeshbhai Patel</h1>
+    <p>Welcome to my website.</p>
+
+    <!-- lorem32 is used for 32 dummy text -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, quibusdam? ipsum, dolor sit amet consectetur
+        adipisicing elit. Distinctio nesciunt necessitatibus tempore suscipit
+        officiis excepturi sit reiciendis, animi minus dolorum ratione, et odio quis voluptatem repellendus voluptates
+        magni dolores corrupti sequi facilis cupiditate numquam? <br> Error dolor hic animi aspernatur minus at dolore
+        reprehenderit, tempora <strong>This tag is used for bold words</strong> temporibus <strong><em>this is emphasi
+                tag, can be changed with css</em> </strong> <br> inventore ipsum, commodi, consequatur rerum unde?
+    </p>
+
+    <!--  this is used for breaking the part with line -->
+    <hr>
+
+    <!-- tag for inserting a website -->
+    <a href="https://google.com">Go to google</a> <br> <br>
+
+    <!-- my linkedin profile in new tab  -->
+    <a href="https://www.linkedin.com/in/kunj-patel-350b4725b/" target="_blank">Linkedin profile</a> <br><br>
+
+    <!-- got to any mentioned file -->
+    <a href="/demo.html" target="_blank">Go to demo file</a> <br><br>
+
+    <!-- insert an image -->
+    <a href="/Resume.jpg">Click to see my resume. </a> <br><br>
+
+    <hr>
+
+    <!-- insert random images and set w ang h without css -->
+    <img src="https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        alt="The image is loading." width="500" height="500">
+
+    <hr>
+
+    <!-- creating a list with html -->
+    <ul type="circle">
+        <li>hello</li>
+        <li>how are you ?</li>
+    </ul>
+
+    <ul type="square">
+        <li>hello</li>
+        <li>how are you ?</li>
+    </ul>
+
+    <ol type="A">
+        <li>hello</li>
+        <li>how are you ?</li>
+    </ol>
+
+    <ol type="I">
+        <li>hello</li>
+        <li>my hobbies are as follows</li>
+        <ul type="circle">
+            <li>playing badminton</li>
+            <li>travelling</li>
+            <li>sketching</li>
+
+        </ul>
+    </ol>
+
+    <hr>
+
+    <!-- creating a table -->
+    <table align="center" border="5">
+        <thead align="center">
+            <tr>
+                <th>name</th>
+                <th>employee id</th>
+                <th>designation</th>
+            </tr>
+        </thead>
+        <tbody align="center">
+            <tr>
+                <td>kunj</td>
+                <td>143</td>
+                <td>Web developer</td>
+            </tr>
+            <tr>
+                <td>kunj</td>
+                <td>143</td>
+                <td>Web developer</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <hr>
+
+
+    <!-- creating a form -->
+    <h2>creating a form</h2>
+    <form action="backend.js">
+        <!-- input is a tag for different input -->
+        <div>
+            Name : <input type="text" name="Myname" id="" value="">
+        </div>
+        <br>
+        <div>
+            Email : <input type="email" name="Myemail" id="" value="">
+        </div>
+        <br>
+        <div>
+           Age: <input type="number" name="Myage" id="" value="">
+        </div>
+        <br>
+        <div>
+            gender : <input type="radio" name="Mygender" id="" value="male">male
+            <input type="radio" name="Mygender" id="">female<input type="radio" name="Mygender" id="">Rekha
+
+        </div>
+        <br>
+        <div>
+            Select date of birth <input type="date" name="" id="">
+        </div>
+       <br>
+        <div>
+            Are you from Gandhinagar ? <input type="checkbox" name="Mycheckbox" id="" value="" >
+        </div>
+        <br>
+        <div>
+
+        <!-- for going to the input area by clicking on the text, write the label tag same as the id of the input type-->
+        <label for="textbox">Write about yourself </label>
+        
+            <br> <textarea name="Mytext" id="textbox" cols="20" rows="10"></textarea>
+        </div>
+        <br>
+
+        
+        <div>
+            <input type="checkbox" name="cbox" id="" checked>I agree with all the terms and conditions to submit the form.
+        </div>
+        <div>
+            <input type="submit" value="Submit form">
+            <input type="reset" value="Reset form">
+        </div>
+
+
+    </form>
+</body>
+
+</html>
